@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZH1
 {
-    class Program
+    class CsacskaNyúl
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
