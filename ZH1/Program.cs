@@ -33,7 +33,7 @@ namespace ZH1
                 bolha.Lép(barnamedve.Lépéshossza);
                 verseny.idő_múlás();
 
-                switch (verseny.idő)
+                switch (verseny.körökSzáma)
                 { 
                     case 10:
                         break;
@@ -56,7 +56,7 @@ namespace ZH1
                     case 100:
                         break;
                 }
-                if (verseny.idő > 99)
+                if (verseny.körökSzáma > 99)
                     break;
 
 
