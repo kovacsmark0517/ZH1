@@ -9,11 +9,20 @@ namespace ZH1
     class ZsigaCsiga
     {
         private int Sorszám = 2;
-        private int KörökSzáma = 0;
+        private int LépésekSzáma = 0;
+        private int Sebesség = 100;
+        private int Megtettút = 0;
+        private int Lépéshossza;
 
         public ZsigaCsiga()
         {
 
+        }
+        public void Lép(int lépéshossza)
+        {
+            Lépéshossza = lépéshossza;
+            Megtettút += lépéshossza;
+            LépésekSzáma++;
         }
     }
 }

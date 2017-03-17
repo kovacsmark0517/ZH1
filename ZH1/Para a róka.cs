@@ -9,11 +9,20 @@ namespace ZH1
     class Para_a_róka
     {
         private int Sorszám = 6;
-        private int KörökSzáma = 0;
+        private int LépésekSzáma = 0;
+        private int Sebesség = 100;
+        private int Megtettút = 0;
+        private int Lépéshossza;
 
         public Para_a_róka()
         {
 
+        }
+        public void Lép(int lépéshossza)
+        {
+            Lépéshossza = lépéshossza;
+            Megtettút += lépéshossza;
+            LépésekSzáma++;
         }
     }
 }

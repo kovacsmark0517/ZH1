@@ -9,7 +9,10 @@ namespace ZH1
     class TréMedve
     {
         private int Sorszám = 3;
-        private int KörökSzáma = 0;
+        private int LépésekSzáma = 0;
+        private int Sebesség = 100;
+        private int Megtettút = 0;
+        private int Lépéshossza;
 
         public TréMedve()
         {
@@ -19,6 +22,12 @@ namespace ZH1
         public void Ordít()
         {
             
+        }
+        public void Lép(int lépéshossza)
+        {
+            Lépéshossza = lépéshossza;
+            Megtettút += lépéshossza;
+            LépésekSzáma++;
         }
     }
 }
