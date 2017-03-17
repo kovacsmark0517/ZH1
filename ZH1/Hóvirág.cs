@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ZH1
 {
-    class CsacskaNyúl
+    class Hóvirág 
     {
-        private int Sorszám = 1;
+        private int Sorszám = 5;
         private int KörökSzáma = 0;
 
-        public CsacskaNyúl()
+        public Hóvirág()
         {
 
         }

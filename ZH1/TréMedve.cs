@@ -6,14 +6,19 @@ using System.Threading.Tasks;
 
 namespace ZH1
 {
-    class CsacskaNyúl
+    class TréMedve
     {
-        private int Sorszám = 1;
+        private int Sorszám = 3;
         private int KörökSzáma = 0;
 
-        public CsacskaNyúl()
+        public TréMedve()
         {
 
+        }
+
+        public void Ordít()
+        {
+            
         }
     }
 }
